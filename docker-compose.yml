@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  spotrosdocker:
-    image: spotrosdocker
+  spot_ros:
+    image: spot_ros
     build:
       context: .
       dockerfile: ./Dockerfile
