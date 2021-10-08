@@ -12,6 +12,8 @@ docker run spotrosdocker
 
 In another terminal, write the following to record all data to a rosbag:
 ```
-docker exec -it <container_name> /bin/bash
+docker exec -it <container_name> /bin/bash 
+source /home/catkin_ws/devel/setup.bash
+rosbag record -a
 
 ```
